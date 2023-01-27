@@ -16,7 +16,7 @@ button = tk.Button(
     bg="blue",
     fg="yellow")
 
-button.bind("<Button-2>", click)
+button.bind("<Button-1>", click)
 
 label= tk.Label(text=f"Score:{score}")
 
